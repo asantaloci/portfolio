@@ -1,0 +1,6 @@
+.artphoto {
+  /* object-fit: contain; */
+object-position: center;
+  height: 30%;
+  width: 50vw;
+}

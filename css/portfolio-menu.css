@@ -1,0 +1,67 @@
+.lavender{
+margin: 0;
+padding: .5em;
+}
+.row {
+  margin:1em;
+  /* margin-left:15em; */
+  margin-right:25px;
+  margin-left:-5px;
+  padding: 0;
+}
+p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-family: Alegreya, serif;
+}
+.detail {
+  /* float:right; */
+  font-style: italic;
+  font-family: Alegreya, serif;
+  /* margin-right: -30px; */
+}
+.portfolio-photo {
+
+  width:100%;
+height:30vh;
+}
+.subheader {
+  font-size: 14px;
+  margin:0em 1em;
+  padding:0;
+}
+
+.col-md-4,.col-sm-4, .col-xs-12, {
+  padding-left: 5px;
+  padding-right: 5px;
+
+
+}
+
+.hover :first-child :hover {
+  color: red;
+}
+
+@media screen and (min-width: 1250px) {
+  .portfolio-photo {
+
+    width:100%;
+  height:35vh;
+  }
+}
+@media screen and (max-width: 770px) {
+  .portfolio-photo {
+
+    width:100%;
+  height:50vh;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio-photo {
+
+    width:100%;
+  height:25vh;
+  }
+}
