@@ -340,6 +340,13 @@ from {
 .emerald a {
   color: #D2F3F5;
 }
+.muted {
+  background-color: #ffe7d4;
+  color:#1f402e;
+}
+.muted a {
+  color:#1f402e;
+}
 .rose {
   background-color: #F3D9E9;
   color: #A7314D;
