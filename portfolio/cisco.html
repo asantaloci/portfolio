@@ -74,7 +74,7 @@ So, I decided to take a crack at consolidating the applications, and making the 
             </p>
     </div>
     <div class="row section">
-      <div class="col-sm-7 featured-project muted" style="padding-left:-15px">
+      <div class="col-sm-7 featured-project lilac" style="padding-left:-15px">
         <p>
           Skills Needed:
           </p>
@@ -85,14 +85,105 @@ So, I decided to take a crack at consolidating the applications, and making the 
 
       </div>
       <div class="col-md-5 col-sm-5 col-xs-12" style="padding-left:0px">
-  <img class="accentphoto" src="../img/art/flower.png">
+  <img class="accentphoto" src="../img/cisco.png">
       </div>
 
     </div>
 
+    <div class="row negative center">
+      <p class="col-md-12" style="font-size: 26px;">Pt 1: <i>Distributor Home Screen</i>
+        <br />
+        <br />
+      This section will briefly go over the Distributor App consolidation page.
+      </p>
+    </div>
+
+    <div class="row blueberry section paddings">
+      <h3 class="col-md-6 portfolio-text">Initial Status</h3>
+      <p class="col-md-6">
+      Before I entered my internship with Cisco, there was no sort of consolidation of these 4-5 different apps. This meant that these applications were only viewed
+      through email links, which is not very accessible. This is why I was tasked to create a new interface for all of these apps to be presented, and have the apps be dynamic based on the type of role each user had.
+      </p>
+    </div>
+    <div class="row blueberry section paddings">
+      <h3 class="col-md-6 portfolio-text">Draft Interface</h3>
+      <p class="col-md-6">
+      To start somewhere, they gave me a draft of what they pictured for the page to look like:
+      </p>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 blueberry" style="text-align:center">
+      <img class="" style="width:80%;padding:0;"src="../img/dishome.png">
+    <br /><br />
+    </div>
+    <div class="row blueberry section paddings">
+      <h3 class="col-md-6 portfolio-text">Fixes</h3>
+      <p class="col-md-6">
+      There were a few things that I wanted to change and add to this current draft:
+      <br />
+      <br />
+      - There was no need for a hero image, since it would distract from the main purpose of the page: the accessibility of the applications
+      <br /><br />
+      - The notifications and release events sections of the page had the same information, meaning that it was mainly used for filler material, so I wanted to remove at least one of those sections or reorganize how notifications would be used
+      <br /><br />
+      - There was no area for the user's metrics or alerts for the different applications, which could be useful so each user could have an idea of what tasks they need to get done
+      <br /><br />
+      - The interface was not as outdated as the other application discussed earlier, but I still wanted to make some UI changes to make it more in sync with the rest of the applications
+      <br /><br />
+    </p>
+    </div>
+    <div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 blueberry" style="text-align:center">
+      <p>
+        Hi-Fi Wireframe
+      </p>
+      <img class="" style="width:80%;padding:0;"src="../img/newhome1.png">
+
+    <br /><br />
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 blueberry" style="text-align:center">
+      <p>
+        Alerts Popup & Example of App Hover
+      </p>
+      <img class="" style="width:80%;padding:0;"src="../img/newhome2.png">
+    <br /><br />
+    </div>
+
+    <div class="col-md-12 col-sm-12 col-xs-12 blueberry" style="text-align:center">
+      <p>
+        News Section
+      </p>
+      <img class="" style="width:80%;padding:0;"src="../img/newhome3.png">
+    <br /><br />
+    </div>
+
+    </div>
+
+    <div class="row blueberry section paddings">
+    <h3 class="col-md-6 portfolio-text"></h3>
+    <p class="col-md-6"></p>
+
+    </div>
+    <div class="row blueberry section paddings">
+      <h3 class="col-md-6 portfolio-text">My Thoughts</h3>
+      <p class="col-md-6">
+    I think my new design is cleaner, and eliminates extra scrolling, and simplifies what needs to be present on the homepage.
+    The hierarchy of the application makes sense, with the applications accessible as soon as you enter the page, as well as metrics to help users figure out what needs to be done.
+    <br />
+    <br />
+    Having a new alerts button at the top will provide a more detailed idea of what things need to be done as well, and can redirect the user to different apps based on the alert message. As for the
+    news section, since it does not take priority, having the button on the top right side of the screen allows it to not take up real estate, unless needed.
+    <br />
+    <br />
+    Overall I think I made an effective homepage to house all of the different distributor applications, and give them visible metrics on their personal tasks that wasn't available before.
+      </p>
+
+      </div>
+
 
     <div class="row negative center">
-      <p class="col-md-12" style="font-size: 26px;">Pt 1: <i>Distributor Apps</i>
+      <p class="col-md-12" style="font-size: 26px;">Pt 2: <i>Specific Distributor Apps</i>
         <br />
         <br />
       This section will cover an analysis of one app in particular that required the most change, as well as my plan for consolidating all Distributor apps.
@@ -100,12 +191,12 @@ So, I decided to take a crack at consolidating the applications, and making the 
     </div>
 
                 <div class="row blueberry section paddings">
-                  <h3 class="col-md-6 portfolio-text">Observations</h3>
+                  <h3 class="col-md-6 portfolio-text">Current App Observations</h3>
                   <p class="col-md-6">
                     My main observations on the current interface of one of the main distributor apps I focused on:
                     <br />
                     <br />
-                    - There is very outdated styling/sizing throughout all applications (not up to date with the Cisco UI Kit)
+                    - There is very outdated styling/sizing throughout all applications (not up to date with the Cisco UI Kit, since it was last updated in early 2000s)
                     <br /><br />
                     - The navigation itself was confusing, especially when there were two nav menus on the same screen
                     <br /><br />
@@ -113,102 +204,88 @@ So, I decided to take a crack at consolidating the applications, and making the 
                     <br /><br />
                     - There were little to no instructions on the pages, making it difficult for new users to understand where to go unless taught step by step
                     <br /><br />
-
+*A lo-fi version of the application is pictured below*
 
 
                   </p>
                 </div>
-                <div class="col-md-12 col-sm-12 col-xs-12 burn">
-                  <img class="" style="width:90%;margin:1em; padding:0;"src="../img/workspace.JPG">
+
+                <div class="col-md-12 col-sm-12 col-xs-12 blueberry">
+                  <img class="" style="width:100%;margin:.01em; padding:0;"src="../img/olddsv.png">
+<br /><br />
+                </div>
+
+                <div class="row blueberry section paddings">
+                  <h3 class="col-md-6 portfolio-text">Filter Page Observations</h3>
+                  <p class="col-md-6">
+                    When you click into any of the dropdown child pages from the main navigation, most if not all of these pages include a filter, an excel table with all transaction information, and some sort of action to take.
+                    <br />
+                    <br />
+                    Since all of these pages were practically the same, I decided to consolidate all of these pages into one solid page per topic, lessening the amount of navigating action that the user would have to do, and eliminating the repetition.
+                    I also wanted to update the look of the filter so it wouldn't take up almost the entire screen, since users of the app would only fill out 1-2 of these filter specifications. The excel table would also be changed because of the intense amount
+                    of horizontal scrolling, and I knew there would be a better way to present and take action on that information.
+              *A lo-fi version of the application is pictured below*
+
+
+                  </p>
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 blueberry">
+                  <img class="" style="width:100%;margin:.01em; padding:0;"src="../img/olddsvsearch.png">
 <br /><br />
                 </div>
 
 
-                <div class="row center muted">
+                <div class="row lilac section paddings">
+                  <h3 class="col-md-6 portfolio-text">My Fixes</h3>
+                  <p class="col-md-6">
+                    Along with the changes I mentioned above, in my version of one of the consolidated pages, I have the table of information with only relevant data,
+                    without the need for horizontal scrolling. I also added an option to sort based on all, error (transactions that need to be fixed), and expired.
+                    Also in the table, there is an option to apply more filters if the user selects the "filter" button, which will expand a small section that has different filter specifications.
+                    <br /><br />
+                    In terms of actions, for the specific example I have pictured, "Extend Expiration" and "New Submission" were the only subpages that had a different page with distinguished actions, so I decided to have them be their own separate buttons that would create a popup once clicked.
+
+
+                  </p>
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 lilac">
+                  <img class="" style="width:100%;margin:.01em; padding:0;"src="../img/dsv1.png">
+<br /><br />
+                </div>
+
+
+
+                <div class="row center lilac">
 
                   <p class="col-md-12" style="font-size: 26px;"><br /><br />
 
+More wireframes will be posted that will showcase the different aspects of the page (popups, error correction, filtering, etc) once I solidify them!
 
-
-    Common responses about participant opinions on purchasing apps similar to <i>Starbucks</i> were that benefits include a <b>reward points and digital payment system</b> and <b>quicker pick-up</b>, avoiding lines.
-
-    57.1% of participants were interested in seeing a similar application implemented for The Meantime.</p>
+  </p>
                 </div>
 
 
-                <div class="row burn section paddings">
-                  <h3 class="col-md-6 portfolio-text">Research Analysis</h3>
-                  <p class="col-md-6">
 
-
-                    Stakeholder requirements:
-                    <br>
-                    <br>
-
-                    Interfaces with current system:
-                    <br>
-                    The Meantime does not have enough real estate to employ a second ipad, and they don’t have the capital to sponsor an entire app design.
-
-<br><br>
-                    Includes tipping options:
-                    <br>
-                    A year after the Meantime opened, the company shifted to a cashless business products.  Though this gave the company a larger sense of security, it negatively impacted baristas, as customers were no longer able to give their spare change to baristas as tips.  Interested stakeholders revealed that they did not want a new system to further impact barista tips, an important portion of their income.
-<br><br>
-                    Imposes Time Limit:
-                    <br>
-                    Stakeholder interviews revealed that espresso drinks begin to lose their quality after 10 minutes.  The company wanted to ensure that remote ordering, and the late pickups that could result from it, would not negatively impact the company’s brand and perceived quality.
-                  </p>
-                </div>
-
-                <div class="row burn section paddings">
-                  <h3 class="col-md-6 portfolio-text">Interface Research</h3>
-                  <p class="col-md-6">
-                    After researching current online ordering platforms such as <i>Starbucks</i> or <i>Dunkin' Donuts</i>, we decided the elements we wanted to include were the ability to create an account with a card for fast ordering, order specific menu items online and schedule a pickup time, and have a reward system based on how many times users use the app to order.
-Obviously the objective of the new system involves making rush hour times easier to manage for both baristas and customers. However it is very important that the community and culture of The Meantime be maintained, after all The Meantime is not a commercial giant. The application we design and develop should take into consideration its users and their motivations for purchasing at the café. So based on customers surveys and interviews it becomes clear what people want to see in the application. It should also be easily implemented because of the limited resources that The Meantime has as a student run non-profit.
-
-                  </p>
-                </div>
-
-
-    <div class="row negative center">
-
-      <p class="col-md-12" style="font-size: 26px;"><br />
-        <br />
-        <br />Interface Design </p>
-    </div>
-    <div class="row section paddings">
-      <p class="col-md-4">Lo Fi</p>
-      <img class="col-md-8 col-sm-12 col-xs-12" src="../img/lofiv1.png" style="width:80vw;">
-      <img class="col-md-8 col-sm-12 col-xs-12" src="../img/lofi-v2.png" style="width:80vw;">
-
-
-    </div>
-    <div class="row section paddings">
-      <p class="col-md-4">Hi Fi</p>
-    <img class="col-md-8 col-sm-12 col-xs-12" src="../img/highfiv1-1.png" style="width:80vw;">
-    <img class="col-md-8 col-sm-12 col-xs-12" src="../img/highfiv1-2.png" style="width:80vw;">
-    </div>
-
-    <div class="row burn paddings">
-      <p>
-For the interface design, I wanted the layout and color scheme to be similar to the main Meantime Coffee Co. website, with its warm hues and colorful hero image.
-I also tried to make the design as simplistic as possible, only focusing on what truly needed to be included: a sign in option (member or guest), a rewards page, a menu to select an order, a page to determine a pickup time, and a checkout screen.
-        </p>
-        <p>
-    The navigations and its colors allows the user to feel more relaxed and easy-going while using the app.
-          </p>
-      </div>
-
-    <div class="row burn section paddings">
+              <div class="row negative center">
+                <p class="col-md-12" style="font-size: 26px;">Pt 3: <i>HR App Portfolio</i>
+                  <br />
+                  <br />
+                Coming Soon: This section will vaguely cover (due to the very sensitive content of these applications) the HR applications I created and continue to create as of Fall 2020.
+                </p>
+              </div>
+    <div class="row lilac section paddings">
       <h3 class="col-md-6 portfolio-text">Conclusion and Next Steps</h3>
       <p class="col-md-6">
-        As my first team project, this experience exposed me to project management and leadership: we started from vague ideas which transformed to a practical product by using my knowledge of problem-solving to real life situations in a rigorous manner.
-
-The project recieved genuine interest from the Meantime for continued development in the future. Through our efforts, we found a real problem that an on-campus, student-run venture faces and designed a viable solution. We are exceptionally lucky to present an offering that could increase the operational efficiency, serving capacity, and quality of an organization that provides a tremendous value to the University, its students, and the Carolina community as a whole. We put a great deal of time and effort into this project knowing its potential to improve the Meantime’s social value proposition.
-<br /> <br />With future iterations, we hope that this solution can increase student scholarships, enable greater learning and compensation for all Meantime employees, create a better platform for Carolina-centric student ventures, and fulfill the great need for excellent, empowering coffee experiences at UNC. </p>
+        This was my very first internship in a large tech company, and overall it was very impactful to my experience and my understanding of how UX works in certain environments. I definitely
+         did not have as much time to go into the research and interview aspects of UX, and I was expected to crank out wireframes over very short amounts of time, sometimes even less a night.
+          However, I realized that due to the limited timeframe of the applications we were making in order to redesign all of HR, I understood that this was an uncommon practice at Cisco. Nonetheless, I
+          learned to make quick decisions and create wireframes with purpose and functionality in mind, rather than aesthetics. I was also the only UX/design employee on my team, which meant that I had to
+          reach out to others outside of my function in order to get a second opinion (but this was harder to do for the highly confidential apps that I worked on later). In the future, I'd like to work on more projects that allow me to experience
+           the full process of how interfaces and experiences are made, possibly with a UX partner or group to bounce ideas off of, but I still think that this was a very valuable experience and gave me a look into the adult tech world.
+         </p>
     </div>
 
-    <div class="row" style="text-align:center;">
+    <div class="row lilac" style="text-align:center;">
       <a href="../portfolio.html">Back to Portfolio</a>
       <br /><br />
     </div>
