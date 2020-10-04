@@ -150,6 +150,14 @@ from {
   position: relative;
   z-index: 5;
 }
+.new {
+  background: url("../img/traingif.gif");
+  position:absolute;
+    top:50vh;
+    z-index: -1;
+    opacity:.2;
+    margin:0;
+}
 
 @keyframes blob-anim {
   0%, 100% {
@@ -338,6 +346,9 @@ from {
       z-index: -1;
       opacity:.25;
       margin:0;
+  }
+  .new {
+    opacity:.2;
   }
   .description {
     font-size: 36px;
