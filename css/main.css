@@ -16,6 +16,14 @@ body {
   overflow-y: scroll;
   padding: 0em;
 }
+footer {
+
+text-align: center;
+
+ bottom: 0;
+ margin-left: 0;
+ margin-right: 0;
+}
 .fa {
   color:lavender;
 }
@@ -39,10 +47,16 @@ body {
   display: block;
   /* color: #f2f2f2; */
   text-align: center;
-  font-size: 24px;
+  font-size: 22px;
   padding: 1em 2em;
 }
 
+.about-text {
+  font-size: 48px;
+  text-align: left;
+  margin:1em;
+  font-family: 'Alegreya', serif;
+}
 .topnav a:hover {
   text-decoration: line-through;
   color: black;
@@ -248,21 +262,23 @@ from {
   float:right;
   width:30vw;
   height: auto;
-  margin: 2em;
-  padding-bottom:2em;
+  margin: 3em;
+  margin-top: -3em;
+  padding-bottom:4em;
 
 }
-.about h2{
-  margin: 2em 0.5em;
+.about h3{
+  margin: 2em 2em;
+  font-family: Alegreya;
+  font-weight: 200;
 }
-
 
 @media screen and (max-width: 750px) {
   #about {
     float:right;
-    width:90vw;
+    width:40vw;
     height: auto;
-    margin: 0em;
+    margin: 2em;
     align-items: center;
   }
   .sum {
@@ -283,7 +299,17 @@ from {
     width: 80%;
   }
 }
+@media screen and (max-width: 500px) {
+  #about {
+
+    width:80vw;
+    height: auto;
+    margin: 2.5em;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 600px) {
+
 
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -307,7 +333,11 @@ from {
 }
 @media screen and (max-width: 750px) {
   .blob {
-    display: none;
+    position:absolute;
+      top:50vh;
+      z-index: -1;
+      opacity:.25;
+      margin:0;
   }
   .description {
     font-size: 36px;
