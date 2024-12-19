@@ -28,73 +28,105 @@
     </a>
   </div>
   <div class="container-fluid">
+    <div class="container1">
+        <img src="img/art/ChiangMai.PNG" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
 
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6 artphoto">
-            <img class="artphoto"src="img/flower.png">
+    </div>   
+    <div class="container1">
+        <img src="img/art/stickyrice.jpg" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
 
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 ">
-            <img class="artphoto"src="img/art/deathburgerangel.png">
+    </div>  
+    <div class="container1">
+        <img src="img/art/thaipumpkin.PNG" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
 
-          </div>
+    </div>  
+    <div class="container1">
+        <img src="img/art/Ruam_Mit_.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
 
+    </div>  
+    <div class="container1">
+        <img src="img/art/pumpkindog.JPG" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
 
+    </div> 
+    <div class="container1">
+        <img src="img/art/yakult.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div>   
+    <div class="container1">
+        <img src="img/art/yamyam.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div>   
+    
+
+    
+        <div class="container1">
+            <img src="img/art/monster.png" style="max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity artimg">
+    
+        </div>  
+        <div class="container1">
+            <img src="img/art/betterflower.png" style="max-width:100%;cursor:pointer"
+            onclick="onClick(this)" class="modal-hover-opacity artimg">
+    
+        </div> 
+     
+    <div class="container1">
+        <img src="img/art/kiki.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div> 
+     <!-- <div class="container1">
+        <img src="img/art/me.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div>   -->
+
+    <div class="container1">
+        <img src="img/art/flowerpower.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div> 
+    <!-- <div class="container1">
+        <img src="img/art/misc.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div>   -->
+    <div class="container1">
+        <img src="img/art/split.png" style="cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div> 
+  
+     
+    <div class="container1">
+        <img src="img/art/deathburger 2.png" style="max-width:100%;cursor:pointer"
+        onclick="onClick(this)" class="modal-hover-opacity artimg">
+
+    </div>   
+    
+    <div id="modal01" class="modal" onclick="this.style.display='none'">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="modal-content">
+          <img id="img01" style="max-width:100%">
         </div>
-
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6 artphoto">
-            <img class="artphoto"src="img/art/mooncake.png">
-
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 ">
-            <img class="artphoto"src="img/art/yakult.png">
-
-          </div>
-
-
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6 artphoto">
-            <img class="artphoto"src="img/art/yamyam.png">
-
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 ">
-            <img class="artphoto"src="img/art/rainfall.png">
-
-          </div>
-
-
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6 artphoto">
-            <img class="artphoto"src="img/art/planets.png">
-
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 ">
-            <img class="artphoto"src="img/art/pretty.png">
-
-          </div>
-
-
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-6 artphoto">
-            <img class="artphoto"src="img/art/me.png">
-
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 ">
-            <img class="artphoto"src="img/art/kiki.png">
-
-          </div>
-
-
-        </div>
+      </div>
 
 
   </div>
+<script>
+    function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
