@@ -54,7 +54,7 @@ body {
 
 }
 p {
-  font-size: 24px;
+  font-size: 2rem;
 }
 
 .wireframe {
@@ -102,7 +102,7 @@ object-fit: cover;
 }
 
 .portfolio-text {
-  font-size: 18px;
+  font-size: 24px;
   font-family: 'Alegreya', serif;
 
 }
@@ -113,9 +113,9 @@ object-fit: cover;
   font-family: 'Alegreya', serif;
 }
 .description-port {
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
-  line-height: 50px;
+  /* line-height: 50px; */
   text-align: justify;
 }
 
@@ -144,9 +144,8 @@ object-fit: cover;
 }
 
 .portfolio-div{
-  /* height: 90vh; */
-  object-position: center;
-  object-fit: scale-down;
+  height: 60vh;
+  object-fit: cover;
   width: 100%;
 }
 
@@ -179,11 +178,18 @@ padding-left: -15px;
 }
 @media screen and (max-width: 750px) {
 
+  .portfolio-description {
+    font-size: 32px;
+    text-align: right;
+    margin:1em;
+    font-family: 'Alegreya', serif;
+  }
+
   .portfolio-div {
-    /* height: 90vh;
+    height: 50vh;
     width:100vw;
     object-fit: cover;
-    object-position: center; */
+    object-position: center;
   }
   .center p{
     text-align: center;
@@ -274,4 +280,4 @@ p{
     display: block;
     text-align: left;
   }
-}
+  }
